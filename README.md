@@ -61,10 +61,31 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+
+    - One of the core features is asynchronous programming.  It allows mutiple operations to be executed at once which makes for highly efficient programming.
+
+    - express is also highly used in the programming community and so it's always being updated and improved upon. very reliable
+
 1. Understand and explain the use of Middleware?
+
+    - Middleware is just an array of functions that get executed in the order they are introduced in the code.  With express middleware we use it for authentication purposes, error handling, and much more.
+
 1. The basic principles of the REST architectural style.
+
+    - We can have a single URL per resource and execute different code based on the HTTP Method/Verb used.
+    - With REST, remember, everything is a resource.
+    - each resource is accessible through a unique URL.
+    - resources can have multiple representations.
+    - communication happens over a stateless protocol.
+    - resource management happens through HTTP methods.
+
 1. Understand and explain the use of Express Routers.
+
+    - Express routers are like components on the front end.  It helps us keep our code dry and organized.  If we have projects, then we put all project endpoints in a specific router and if we have other endpoints then we keep them in their own separate routers.
+
 1. Describe tooling used to manually test the correctness of an API.
+
+    - The tools used to manually test if our endpoints are working are either Postman or Insomnia.  Both are great resources for testing your backend to make sure you're getting the data and adding the data needed.  They both are similar and are therefore based on preference for whichever one you want to use.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
